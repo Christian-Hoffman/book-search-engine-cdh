@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KACE,8BACF,CAEA,kBAME,uCACF,CAEA,OACE,eAAgB,CAChB,iBACF","file":"main.a13d3d6a.chunk.css","sourcesContent":["body {\n  font-family: 'Rubik', sans-serif;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-family: 'Rubik Mono One', sans-serif;\n}\n\n.small {\n  font-weight: 300;\n  font-style: italic;\n}\n"]}
