@@ -9,11 +9,11 @@ import {
   CardColumns,
 } from "react-bootstrap";
 
-import { useQuery, useMutation } from "@apollo/client";
+import { useMutation } from "@apollo/client";
 import { SAVE_BOOK } from "../utils/mutations";
 
 import Auth from "../utils/auth";
-import { saveBook, searchGoogleBooks } from "../utils/API";
+import { searchGoogleBooks } from "../utils/API";
 import { saveBookIds, getSavedBookIds } from "../utils/localStorage";
 
 const SearchBooks = () => {
@@ -78,9 +78,8 @@ const SearchBooks = () => {
     }
 
     try {
-      const response = await saveBook({
-        variables: { bookData: bookToSave },
-        context: token,
+      const { response } = await saveBook({
+        variables: { input: { ...bookToSave } },
       });
 
       if (!response.ok) {
