@@ -2,21 +2,20 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001",
+  "proxy": "http://localhost:3001/",
   "dependencies": {
-    "@apollo/client": "^3.7.0",
+    "@apollo/client": "^3.6.9",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
-    "graphql": "^16.6.0",
+    "graphql": "^15.4.0",
     "jwt-decode": "^2.2.0",
-    "react": "^16.13.1",
+    "react": "^18.2.0",
     "react-bootstrap": "^1.0.1",
-    "react-dom": "^16.13.1",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
-    "start": "^5.1.0"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
